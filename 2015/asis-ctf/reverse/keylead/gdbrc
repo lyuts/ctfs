@@ -1,0 +1,21 @@
+b *0x00400eea
+r
+set $eax=3
+
+b *0x00400f13
+c
+set $eax=1
+
+b *0x00400f3c
+c
+set $eax=3
+
+b *0x00400f65
+c
+set $eax=3
+
+b *0x00400f8e
+c
+set $eax=7
+c
+
